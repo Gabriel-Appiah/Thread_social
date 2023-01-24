@@ -38,11 +38,11 @@ grabInfo<-function(var){
 setwd(choose.dir())
 
 #Register Google key
-register_google(key="AIzaSyDI51bwly69dY8Cq2KkYRcGrVdur-DEfgE")#this will be used
+register_google(key="")#this will be used
                                                               #for the static map
-set_key("AIzaSyDI51bwly69dY8Cq2KkYRcGrVdur-DEfgE")  #this will be used 
+set_key("")  #this will be used 
                                                     # for the interactive map
-key="AIzaSyDI51bwly69dY8Cq2KkYRcGrVdur-DEfgE"  # this will be used to request
+key=""  # this will be used to request
                                                #travel time and distance info.
 
 #read the data files
